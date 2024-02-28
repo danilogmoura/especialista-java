@@ -15,6 +15,7 @@
         <module name="MembrosEstaticos" />
         <module name="SobrecargaMetodos" />
         <module name="Construtores" />
+        <module name="EncapsulamentoJavaBeans" />
       </profile>
     </annotationProcessing>
   </component>
