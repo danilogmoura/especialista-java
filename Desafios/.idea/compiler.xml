@@ -9,6 +9,7 @@
         <module name="DesafioComposicaoObjetosMetodos" />
         <module name="ArrayList" />
         <module name="WrappersBoxing" />
+        <module name="PacotesModificadoresDeAcesso" />
         <module name="Arrays" />
         <module name="varargs" />
         <module name="MembrosEstaticos" />
