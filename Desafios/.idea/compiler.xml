@@ -13,6 +13,7 @@
         <module name="varargs" />
         <module name="MembrosEstaticos" />
         <module name="SobrecargaMetodos" />
+        <module name="Construtores" />
       </profile>
     </annotationProcessing>
   </component>
