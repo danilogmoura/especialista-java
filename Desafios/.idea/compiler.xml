@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DesafioComposicaoObjetosMetodos" />
         <module name="ArrayList" />
         <module name="WrappersBoxing" />
         <module name="Arrays" />
+        <module name="varargs" />
         <module name="MembrosEstaticos" />
-        <module name="DesafioComposicaoObjetosMetodos" />
         <module name="SobrecargaMetodos" />
       </profile>
     </annotationProcessing>
