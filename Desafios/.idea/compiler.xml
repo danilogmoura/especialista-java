@@ -18,5 +18,8 @@
         <module name="EncapsulamentoJavaBeans" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Banco" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
