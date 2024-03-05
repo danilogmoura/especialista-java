@@ -55,4 +55,12 @@ public class Conta {
 
         saldo += valorDeposito;
     }
+
+    public void imprimirDemonstrativo() {
+        System.out.println();
+        System.out.printf("Agência: %d%n", getAgencia());
+        System.out.printf("Conta: %d%n", getNumero());
+        System.out.printf("Titular: %s%n", getTitular().getNome());
+        System.out.printf("Saldo: %.2f%n", getSaldo());
+    }
 }
