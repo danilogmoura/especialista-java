@@ -36,16 +36,19 @@ public class ContaEspecial extends ContaInvestimento {
         System.out.printf("Saldo Disponível: %.2f%n", getSaldoDisponivel());
     }
 
+    protected void validarSaldoParaSaque(double valorSaque) {
+        if (getSaldoDisponivel() < valorSaque) {
+            throw new RuntimeException("Saldo insuficiente para saque");
+        }
+    }
+
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {
             throw new IllegalArgumentException("Valor do saque deve ser maior que 0");
         }
 
-        if (getSaldoDisponivel() < valorSaque) {
-            throw new RuntimeException("Saldo insuficiente para saque");
-        }
-
-        saldo -= valorSaque;
+        validarSaldoParaSaque(valorSaque);
+        setSaldo(getSaldo() - valorSaque);
     }
 
     public void debitarTarifaMensal() {
