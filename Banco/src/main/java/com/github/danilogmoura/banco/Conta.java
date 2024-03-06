@@ -1,5 +1,7 @@
 package com.github.danilogmoura.banco;
 
+import java.util.Objects;
+
 public class Conta {
 
 
@@ -65,9 +67,22 @@ public class Conta {
     @Override
     public String toString() {
         return "Conta{" +
-                "titular=" + titular +
-                ", agencia=" + agencia +
-                ", numero=" + numero +
-                '}';
+                       "titular=" + titular +
+                       ", agencia=" + agencia +
+                       ", numero=" + numero +
+                       '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Conta conta = (Conta) o;
+        return agencia == conta.agencia && numero == conta.numero;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(agencia, numero);
     }
 }

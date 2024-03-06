@@ -1,23 +1,20 @@
-import com.github.danilogmoura.banco.ContaEspecial;
+package com.github.danilogmoura;
+
+import com.github.danilogmoura.banco.Conta;
 import com.github.danilogmoura.banco.Titular;
 
-public class PrincipalContaEspecial {
+public class PrincipalContaNormal {
 
     public static void main(String[] args) {
         var titular = new Titular("João da Silva", "12234523");
 
-        var conta = new ContaEspecial(titular, 1234, 999999, 90);
-        conta.setLimiteChequeEspecial(1000);
-
+        var conta = new Conta(titular, 1234, 99999);
         conta.imprimirDemonstrativo();
 
         conta.depositar(100);
         conta.imprimirDemonstrativo();
 
-        conta.sacar(200);
-        conta.imprimirDemonstrativo();
-
-        conta.debitarTarifaMensal();
+        conta.sacar(27.50);
         conta.imprimirDemonstrativo();
     }
 }
