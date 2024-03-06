@@ -6,6 +6,10 @@ public class ContaEspecial extends ContaInvestimento {
     private double tarifaMensal;
     private double limiteChequeEspecial;
 
+    public ContaEspecial(Titular titular, int agencia, int numero, double tarifaMensal) {
+        super(titular, agencia, numero);
+        this.tarifaMensal = tarifaMensal;
+    }
 
     public double getTarifaMensal() {
         return tarifaMensal;
@@ -38,15 +42,6 @@ public class ContaEspecial extends ContaInvestimento {
         if (getSaldoDisponivel() < valorSaque) {
             throw new RuntimeException("Saldo insuficiente para saque");
         }
-    }
-
-    public void sacar(double valorSaque) {
-        if (valorSaque <= 0) {
-            throw new IllegalArgumentException("Valor do saque deve ser maior que 0");
-        }
-
-        validarSaldoParaSaque(valorSaque);
-        setSaldo(getSaldo() - valorSaque);
     }
 
     public void debitarTarifaMensal() {
