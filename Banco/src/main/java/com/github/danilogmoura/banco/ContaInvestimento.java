@@ -1,12 +1,15 @@
 package com.github.danilogmoura.banco;
 
-public class Conta {
+public class ContaInvestimento {
 
 
     private Titular titular;
     private int agencia;
     private int numero;
     private double saldo;
+
+    // conta investimento
+    private double valorTotalRendimentos;
 
     public Titular getTitular() {
         return titular;
@@ -36,6 +39,17 @@ public class Conta {
         return saldo;
     }
 
+    public double getValorTotalRendimentos() {
+        return valorTotalRendimentos;
+    }
+
+
+    public void creditarRendimento(double percentualJuros) {
+        double valorRendimentos = getSaldo() * percentualJuros / 100;
+        this.valorTotalRendimentos += valorRendimentos;
+        depositar(valorRendimentos);
+    }
+
     public void sacar(double valorSaque) {
         if (valorSaque <= 0) {
             throw new IllegalArgumentException("Valor do saque deve ser maior que 0");
@@ -63,5 +77,4 @@ public class Conta {
         System.out.printf("Titular: %s%n", getTitular().getNome());
         System.out.printf("Saldo: %.2f%n", getSaldo());
     }
-
 }
