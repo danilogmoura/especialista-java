@@ -27,6 +27,7 @@ public class ContaEspecial extends ContaInvestimento {
         return getSaldo() + getLimiteChequeEspecial();
     }
 
+    @Override
     public void imprimirDemonstrativo() {
         System.out.println();
         System.out.printf("Agência: %d%n", getAgencia());
@@ -36,6 +37,7 @@ public class ContaEspecial extends ContaInvestimento {
         System.out.printf("Saldo Disponível: %.2f%n", getSaldoDisponivel());
     }
 
+    @Override
     protected void validarSaldoParaSaque(double valorSaque) {
         if (getSaldoDisponivel() < valorSaque) {
             throw new RuntimeException("Saldo insuficiente para saque");
