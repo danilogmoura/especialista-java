@@ -47,4 +47,12 @@ public class ContaEspecial extends ContaInvestimento {
     public void debitarTarifaMensal() {
         sacar(getTarifaMensal());
     }
+
+    @Override
+    public String toString() {
+        return "ContaEspecial{" +
+                "tarifaMensal=" + tarifaMensal +
+                ", limiteChequeEspecial=" + limiteChequeEspecial +
+                "} " + super.toString();
+    }
 }

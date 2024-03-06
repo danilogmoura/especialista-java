@@ -4,9 +4,8 @@ import java.util.Objects;
 
 public class Titular {
 
-    private String nome;
-
     private final String cpf;
+    private String nome;
 
     public Titular(String nome, String cpf) {
         Objects.requireNonNull(nome);
@@ -26,5 +25,13 @@ public class Titular {
 
     public String getCpf() {
         return cpf;
+    }
+
+    @Override
+    public String toString() {
+        return "Titular{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                '}';
     }
 }
