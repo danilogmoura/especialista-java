@@ -63,6 +63,9 @@ Exemplo:
 
 - [**12.7. Modificador de acesso protected**](https://app.algaworks.com/aulas/4522/modificador-de-acesso-protected)
 
+
+- [**13.1. Upcasting de referências**](https://app.algaworks.com/aulas/4533/upcasting-de-referencias)
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
