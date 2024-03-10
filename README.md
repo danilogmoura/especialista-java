@@ -101,4 +101,8 @@ Exemplo:
 
 - [**12.13. Boas práticas: sempre sobrescreva o método Object.toString**](https://app.algaworks.com/aulas/4528/boas-praticas-sempre-sobrescreva-o-metodo-objecttostring)
 
+
+- [**13.6. Pattern Matching para o operador instanceof**](https://app.algaworks.com/aulas/4538/pattern-matching-para-o-operador-instanceof)
+
+
 ### DESAFIOS
