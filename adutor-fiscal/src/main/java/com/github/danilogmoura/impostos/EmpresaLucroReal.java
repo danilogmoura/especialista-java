@@ -10,6 +10,6 @@ public class EmpresaLucroReal extends PessoaJuridica {
 
     @Override
     public double calcularImpostos() {
-        return getFaturamentoAnual() * ALIQUOTA_IMPOSTO_LUCRO;
+        return getLucroAnual() * ALIQUOTA_IMPOSTO_LUCRO;
     }
 }
