@@ -105,4 +105,8 @@ Exemplo:
 - [**13.6. Pattern Matching para o operador instanceof**](https://app.algaworks.com/aulas/4538/pattern-matching-para-o-operador-instanceof)
 
 
+- [**13.7. Evitando o uso de instanceof**](https://app.algaworks.com/aulas/4539/evitando-o-uso-de-instanceof)
+
+
+
 ### DESAFIOS

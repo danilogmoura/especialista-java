@@ -14,6 +14,11 @@ public class ContaInvestimento extends Conta {
         return valorTotalRendimentos;
     }
 
+    @Override
+    public boolean possuiGratuidadeImpressao() {
+        return valorTotalRendimentos > 0;
+    }
+
     public void creditarRendimento(double percentualJuros) {
         double valorRendimentos = getSaldo() * percentualJuros / 100;
         this.valorTotalRendimentos += valorRendimentos;
@@ -23,7 +28,7 @@ public class ContaInvestimento extends Conta {
     @Override
     public String toString() {
         return "ContaInvestimento{" +
-                "valorTotalRendimentos=" + valorTotalRendimentos +
-                "} " + super.toString();
+                       "valorTotalRendimentos=" + valorTotalRendimentos +
+                       "} " + super.toString();
     }
 }
