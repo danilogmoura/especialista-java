@@ -2,7 +2,7 @@
 
 ### ATUAL
 
-- [**12.2. Criando classes etiquetadas (tagged classes)**](https://app.algaworks.com/aulas/4517/criando-classes-etiquetadas-tagged-classes)
+- [**14.2. Criando a primeira interface**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
 
 ### REVISÃO
 
