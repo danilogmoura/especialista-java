@@ -66,6 +66,11 @@ Exemplo:
 
 - [**13.1. Upcasting de referências**](https://app.algaworks.com/aulas/4533/upcasting-de-referencias)
 
+
+- [**14.2. Criando a primeira interface**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
+
+- [**14.3. Implementando a primeira interface**](https://app.algaworks.com/aulas/4546/implementando-a-primeira-interface)
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
