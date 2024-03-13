@@ -1,6 +1,6 @@
 package com.github.danilogmoura.financeira.modelo;
 
-public class Fazenda extends Empresa implements ClienteFinanciavel {
+public class Fazenda extends EmpresaFinanciavel {
 
     public static final double PERCENTUAL_FATURAMENTO_LIMITE_CREDITO = 0.5;
     public static final double TAXA_ACRECIMO_LIMITE_PARA_GRANDE_PROPRIEDADE = 1.2;

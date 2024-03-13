@@ -5,7 +5,7 @@ import com.github.danilogmoura.financeira.modelo.Funcionario;
 import com.github.danilogmoura.financeira.modelo.Industria;
 import com.github.danilogmoura.financeira.servico.ServicoFinanciamento;
 
-public class Main {
+public class Main1 {
 
     public static void main(String[] args) {
         var servicoFinanciamento = new ServicoFinanciamento();

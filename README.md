@@ -67,9 +67,7 @@ Exemplo:
 - [**13.1. Upcasting de referências**](https://app.algaworks.com/aulas/4533/upcasting-de-referencias)
 
 
-- [**14.2. Criando a primeira interface**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
-
-- [**14.3. Implementando a primeira interface**](https://app.algaworks.com/aulas/4546/implementando-a-primeira-interface)
+- [**14.8. Métodos default em interfaces**](https://app.algaworks.com/aulas/4551/metodos-default-em-interfaces)
 
 ### BOAS PRÁTICAS
 
@@ -111,7 +109,3 @@ Exemplo:
 
 
 - [**13.7. Evitando o uso de instanceof**](https://app.algaworks.com/aulas/4539/evitando-o-uso-de-instanceof)
-
-
-
-### DESAFIOS
