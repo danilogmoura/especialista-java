@@ -109,3 +109,6 @@ Exemplo:
 
 
 - [**13.7. Evitando o uso de instanceof**](https://app.algaworks.com/aulas/4539/evitando-o-uso-de-instanceof)
+
+
+- [**Boas práticas de herança e interfaces**](https://app.algaworks.com/aulas/4559/rigidez-do-codigo-com-heranca)
