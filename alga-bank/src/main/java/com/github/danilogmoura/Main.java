@@ -1,5 +1,7 @@
-package com.github.danilogmoura.algabank;
+package com.github.danilogmoura;
 
+import com.github.danilogmoura.algabank.PontuacaoDecorator;
+import com.github.danilogmoura.algabank.TributacaoDecorator;
 import com.github.danilogmoura.javabank.ContaCorrente;
 
 public class Main {
@@ -17,5 +19,7 @@ public class Main {
         System.out.printf("Saldo da conta 2: R$%.2f%n", conta2.getSaldo());
 
         System.out.printf("Pontos da conta 1: %.2f%n", pontuacao.getPontos());
+
+        System.out.printf("Operações: %.2f%n", pontuacao.getPontos());
     }
 }

@@ -11,4 +11,8 @@ public interface Conta {
     void transferir(Conta conta, double valor);
 
     void aplicarEmInvestimento(double valor);
+
+    default void imprimirSaldo() {
+        System.out.printf("Seu saldo é de R$%.2f%b", getSaldo());
+    }
 }
