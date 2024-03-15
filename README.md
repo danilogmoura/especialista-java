@@ -2,7 +2,7 @@
 
 ### ATUAL
 
-- [**14.2. Criando a primeira interface**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
+- [**16.1. Introdução às exceções**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
 
 ### REVISÃO
 
