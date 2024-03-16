@@ -119,3 +119,11 @@ Exemplo:
 
 
 - [**16.14. Boa prática: embrulhe a causa raiz**](https://app.algaworks.com/aulas/4656/boa-pratica-embrulhe-a-causa-raiz)
+
+
+- [**16.19. Boas práticas: lance exceções ao invés de retornar null**](https://app.algaworks.com/aulas/4661/boas-praticas-lance-excecoes-ao-inves-de-retornar-null)
+
+
+- [**16.20. Boas práticas: não engula exceções**](https://app.algaworks.com/aulas/4662/boas-praticas-nao-engula-excecoes)
+
+
