@@ -2,7 +2,7 @@
 
 ### ATUAL
 
-- [**16.1. Introdução às exceções**](https://app.algaworks.com/aulas/4545/criando-a-primeira-interface)
+- [**18.3. Como funciona a ArrayList**](https://app.algaworks.com/aulas/4673/como-funciona-a-arraylist)
 
 ### REVISÃO
 
