@@ -1,6 +1,8 @@
 package com.github.danilogmoura;
 
+import com.github.danilogmoura.estoque.BaixaEstoqueException;
 import com.github.danilogmoura.estoque.Produto;
+import com.github.danilogmoura.estoque.ProdutoException;
 
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         var produto = new Produto("Apple Watch");
-//        produto.ativar();
+        produto.ativar();
         produto.adicionaEstoque(20);
 
         comprar(produto);
@@ -26,31 +28,34 @@ public class Main {
                 System.out.println("Compra realizada");
 
                 break;
-            } catch (IllegalArgumentException iae) {
-                iae.printStackTrace();
-                System.out.println("Erro na compra: " + iae.getMessage());
-            } catch (IllegalStateException ise) {
-                System.out.println("Erro na compra: " + ise.getMessage());
-                System.out.print("Deseja ativar o produto? ");
-                if (scanner.nextBoolean()) {
-                    produto.ativar();
-                    System.out.println("Ok. Produto ativado");
-                } else {
-                    System.out.println("Ok. Compra não pode ser realizada");
-                    break;
-                }
+            } catch (BaixaEstoqueException e) {
+                System.out.println("Erro na compra: " + e.getCause().getMessage());
+//                e.printStackTrace();
             }
+//            catch (ProdutoSemEstoqueException e) {
+//                System.out.printf("Erro na compra: %s. Estoque disponível %d. Estoque necessário %d%n",
+//                        e.getMessage(), e.getEstoqueDisponivel(), e.getEstoqueNecessario());
+//            } catch (ProdutoIntativoException e) {
+//                System.out.println("Erro na compra: " + e.getMessage());
+//                System.out.print("Deseja ativar o produto? ");
+//                if (scanner.nextBoolean()) {
+//                    produto.ativar();
+//                    System.out.println("Ok. Produto ativado");
+//                } else {
+//                    System.out.println("Ok. Compra não pode ser realizada");
+//                    break;
+//                }
+//            }
         } while (true);
     }
 
-    private static void efetuarBaixaEstoque(Produto produto, int quantidade) {
-//        try {
-        produto.retirarQuantidade(quantidade);
-        System.out.printf("%d unidades retiradas do estoque. Estoque atual: %d%n",
-                quantidade, produto.getQuantidadeEstoque());
-//        } catch (IllegalArgumentException iae) {
-//            System.out.println("Erro ao efetuar baixa no extoque: " + iae.getMessage());
-//            throw iae;
-//        }
+    private static void efetuarBaixaEstoque(Produto produto, int quantidade) throws BaixaEstoqueException {
+        try {
+            produto.retirarQuantidade(quantidade);
+            System.out.printf("%d unidades retiradas do estoque. Estoque atual: %d%n",
+                    quantidade, produto.getQuantidadeEstoque());
+        } catch (IllegalArgumentException | ProdutoException e) {
+            throw new BaixaEstoqueException("Erro ao realizar baixa no estoque", e);
+        }
     }
 }

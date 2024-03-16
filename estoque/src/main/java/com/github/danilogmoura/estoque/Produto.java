@@ -34,25 +34,21 @@ public class Produto {
         return !isAtivo();
     }
 
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
-    }
-
     public void ativar() {
         this.ativo = true;
     }
 
-    public void retirarQuantidade(int quantidade) {
+    public void retirarQuantidade(int quantidade) throws ProdutoSemEstoqueException, ProdutoIntativoException {
         if (quantidade < 0) {
             throw new IllegalArgumentException("Quantidade não pode ser negativa para retirada no estoque");
         }
 
         if (isInativo()) {
-            throw new IllegalStateException("Retirada no estoque não pode ser realizada em produto inativo");
+            throw new ProdutoIntativoException("Retirada no estoque não pode ser realizada em produto inativo");
         }
 
         if (this.quantidadeEstoque - quantidade < 0) {
-            throw new IllegalArgumentException("Quantidade inválida, porque estoque ficaria negativo");
+            throw new ProdutoSemEstoqueException("Estoque insuficiente", this.quantidadeEstoque, quantidade);
         }
 
         this.quantidadeEstoque -= quantidade;

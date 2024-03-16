@@ -69,6 +69,10 @@ Exemplo:
 
 - [**14.8. Métodos default em interfaces**](https://app.algaworks.com/aulas/4551/metodos-default-em-interfaces)
 
+
+- [**16.11. Lançando e propagando checked exceptions**](https://app.algaworks.com/aulas/4653/lancando-e-propagando-checked-exceptions)
+
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
@@ -111,4 +115,7 @@ Exemplo:
 - [**13.7. Evitando o uso de instanceof**](https://app.algaworks.com/aulas/4539/evitando-o-uso-de-instanceof)
 
 
-- [**Boas práticas de herança e interfaces**](https://app.algaworks.com/aulas/4559/rigidez-do-codigo-com-heranca)
+- [**15. Boas práticas de herança e interfaces**](https://app.algaworks.com/aulas/4559/rigidez-do-codigo-com-heranca)
+
+
+- [**16.14. Boa prática: embrulhe a causa raiz**](https://app.algaworks.com/aulas/4656/boa-pratica-embrulhe-a-causa-raiz)
