@@ -1,27 +1,26 @@
 package com.github.danilogmoura.estruturadedados;
 
 import java.util.Arrays;
-import java.util.Objects;
 
-public class Pilha<T> {
+public class Pilha<E> implements Colecao<E> {
 
-    private T[] itens;
+    private E[] itens;
 
     public Pilha() {
-        this.itens = (T[]) new Objects[0];
+        itens = (E[]) new Object[0];
     }
 
-    public void colocar(T item) {
+    public void colocar(E item) {
         itens = Arrays.copyOf(itens, itens.length + 1);
         itens[itens.length - 1] = item;
     }
 
-    public T retirar() {
+    public E retirar() {
         if (itens.length == 0) {
-            throw new PilhaVaziaException("Pilha sem itens");
+            throw new ColecaoVaziaException("Pilha sem itens");
         }
 
-        T item = itens[itens.length - 1];
+        E item = itens[itens.length - 1];
         itens = Arrays.copyOf(itens, itens.length - 1);
 
         return item;
