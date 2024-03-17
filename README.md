@@ -73,6 +73,9 @@ Exemplo:
 - [**16.11. Lançando e propagando checked exceptions**](https://app.algaworks.com/aulas/4653/lancando-e-propagando-checked-exceptions)
 
 
+- [**18.14. Vector: a lista thread-safe**](https://app.algaworks.com/aulas/4684/vector-a-lista-thread-safe)
+
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
@@ -125,5 +128,11 @@ Exemplo:
 
 
 - [**16.20. Boas práticas: não engula exceções**](https://app.algaworks.com/aulas/4662/boas-praticas-nao-engula-excecoes)
+
+
+- [**18.15. Boas práticas: reduza o acoplamento usando o tipo da interface**](https://app.algaworks.com/aulas/4685/boas-praticas-reduza-o-acoplamento-usando-o-tipo-da-interface)
+
+
+- [**18.18. Boas práticas: considere implementar a interface Comparable**](https://app.algaworks.com/aulas/4688/boas-praticas-considere-implementar-a-interface-comparable)
 
 

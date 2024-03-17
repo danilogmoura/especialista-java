@@ -2,11 +2,11 @@ package com.github.danilogmoura.agencia;
 
 import java.util.Objects;
 
-public class Hotel {
+public class Hotel implements Comparable<Hotel> {
 
     private String nome;
     private String cidade;
-    private double precoDiaria;
+    private Double precoDiaria;
 
     public Hotel(String nome, String cidade, double precoDiaria) {
         setNome(nome);
@@ -44,6 +44,11 @@ public class Hotel {
     }
 
     @Override
+    public int compareTo(Hotel o) {
+        return getNome().compareTo(o.getNome());
+    }
+
+    @Override
     public String toString() {
         return "Hotel{" +
                        "nome='" + nome + '\'' +
@@ -57,11 +62,11 @@ public class Hotel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Hotel hotel = (Hotel) o;
-        return Objects.equals(nome, hotel.nome) && Objects.equals(cidade, hotel.cidade);
+        return Objects.equals(nome, hotel.nome);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nome, cidade);
+        return Objects.hashCode(nome);
     }
 }
