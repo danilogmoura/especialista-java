@@ -2,7 +2,7 @@ package com.github.danilogmoura;
 
 import java.util.Objects;
 
-public class Cidade implements Comparable {
+public class Cidade {
 
     private int codigoIbge;
     private String nome;
