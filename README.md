@@ -142,3 +142,8 @@ Exemplo:
 - [**18.18. Boas práticas: considere implementar a interface Comparable**](https://app.algaworks.com/aulas/4688/boas-praticas-considere-implementar-a-interface-comparable)
 
 
+- [**18.33. Boas práticas: encapsulamento com coleções não-modificáveis**](https://app.algaworks.com/aulas/4703/boas-praticas-encapsulamento-com-colecoes-nao-modificaveis)
+
+
+
+
