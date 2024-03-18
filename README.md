@@ -1,8 +1,10 @@
 ## ESPECIALISTA JAVA
 
+
 ### ATUAL
 
-- [**18.3. Como funciona a ArrayList**](https://app.algaworks.com/aulas/4673/como-funciona-a-arraylist)
+- [**19.1. Usando enumerações à moda antiga**](https://app.algaworks.com/aulas/4706/usando-enumeracoes-a-moda-antiga)
+
 
 ### REVISÃO
 
@@ -82,6 +84,11 @@ Exemplo:
 - [**18.30. Usando mapas dos tipos HashMap e Hashtable**](https://app.algaworks.com/aulas/4700/usando-mapas-dos-tipos-hashmap-e-hashtable)
 
 
+- [**19.7. Implementando métodos abstratos**](https://app.algaworks.com/aulas/4712/implementando-metodos-abstratos)
+
+
+- [****]()
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
@@ -145,5 +152,39 @@ Exemplo:
 - [**18.33. Boas práticas: encapsulamento com coleções não-modificáveis**](https://app.algaworks.com/aulas/4703/boas-praticas-encapsulamento-com-colecoes-nao-modificaveis)
 
 
+- [**19.8. Boas práticas: substitua parâmetros booleanos por enums**](https://app.algaworks.com/aulas/4713/boas-praticas-substitua-parametros-booleanos-por-enums)
 
+
+- [****]()
+
+### DIAGRAMA DE CLASSES
+
+- [**5.6. Conhecendo o diagrama de classes da UML**](https://app.algaworks.com/aulas/4352/conhecendo-o-diagrama-de-classes-da-uml)
+
+
+- [**5.10. Diagrama de classes: associação, agregação e composição**](https://app.algaworks.com/aulas/4356/diagrama-de-classes-associacao-agregacao-e-composicao)
+
+
+- [**5.26. Diagrama de classes: métodos e dependências**](https://app.algaworks.com/aulas/4372/diagrama-de-classes-metodos-e-dependencias)
+
+
+- [**8.13. Diagrama de classes: multiplicidade para arrays**](https://app.algaworks.com/aulas/4471/diagrama-de-classes-multiplicidade-para-arrays)
+
+
+- [**10.6. Diagrama de classes: construtores**](https://app.algaworks.com/aulas/4492/diagrama-de-classes-construtores)
+
+
+- [**10.13. Diagrama de classes: visibilidade public, package e private**](https://app.algaworks.com/aulas/4499/diagrama-de-classes-visibilidade-public-package-e-private)
+
+
+- [**11.12. Diagrama de classes: Records**](https://app.algaworks.com/aulas/4515/diagrama-de-classes-records)
+
+
+- [**12.4. Conhecendo herança e o relacionamento no diagrama de classes**](https://app.algaworks.com/aulas/4519/conhecendo-heranca-e-o-relacionamento-no-diagrama-de-classes)
+
+
+- [**19.3. Diagrama de classes: enumeração**](https://app.algaworks.com/aulas/4708/diagrama-de-classes-enumeracao)
+
+
+- [****]()
 
