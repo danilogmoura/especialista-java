@@ -79,6 +79,9 @@ Exemplo:
 - [**18.24. Implementando o método hashCode**](https://app.algaworks.com/aulas/4694/implementando-o-metodo-hashcode)
 
 
+- [**18.30. Usando mapas dos tipos HashMap e Hashtable**](https://app.algaworks.com/aulas/4700/usando-mapas-dos-tipos-hashmap-e-hashtable)
+
+
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
