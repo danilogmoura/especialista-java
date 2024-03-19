@@ -158,6 +158,9 @@ Exemplo:
 - [**20.12. Boas práticas: use StringBuilder para mais performance**](https://app.algaworks.com/aulas/4726/boas-praticas-use-stringbuilder-para-mais-performance)
 
 
+- [**21.4. Boas práticas: evite float e double se precisão é importante**](https://app.algaworks.com/aulas/4732/boas-praticas-evite-float-e-double-se-precisao-e-importante)
+
+
 - [****]()
 
 ### DIAGRAMA DE CLASSES
