@@ -155,6 +155,9 @@ Exemplo:
 - [**19.8. Boas práticas: substitua parâmetros booleanos por enums**](https://app.algaworks.com/aulas/4713/boas-praticas-substitua-parametros-booleanos-por-enums)
 
 
+- [**20.12. Boas práticas: use StringBuilder para mais performance**](https://app.algaworks.com/aulas/4726/boas-praticas-use-stringbuilder-para-mais-performance)
+
+
 - [****]()
 
 ### DIAGRAMA DE CLASSES
