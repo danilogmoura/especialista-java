@@ -3,7 +3,7 @@
 
 ### ATUAL
 
-- [**19.1. Usando enumerações à moda antiga**](https://app.algaworks.com/aulas/4706/usando-enumeracoes-a-moda-antiga)
+- [**21.1. Comparando números da forma correta**](https://app.algaworks.com/aulas/4729/comparando-numeros-da-forma-correta)
 
 
 ### REVISÃO
