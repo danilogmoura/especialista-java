@@ -93,6 +93,9 @@ Exemplo:
 - [**24.5. Classes aninhadas não-estáticas**](https://app.algaworks.com/aulas/4787/classes-aninhadas-nao-estaticas)
 
 
+- [**24. Classes aninhadas**](https://app.algaworks.com/aulas/4783/introducao-as-classes-aninhadas)
+
+
 - [****]()
 
 ### BOAS PRÁTICAS
