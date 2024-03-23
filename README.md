@@ -96,6 +96,27 @@ Exemplo:
 - [**24. Classes aninhadas**](https://app.algaworks.com/aulas/4783/introducao-as-classes-aninhadas)
 
 
+- [**25.4. Usando a interface @FunctionalInterface**](https://app.algaworks.com/aulas/4795/usando-a-interface-functionalinterface)
+
+
+- [**25.9. As 4 principais interfaces funcionais**](https://app.algaworks.com/aulas/4800/as-4-principais-interfaces-funcionais)
+
+
+- [**25.12. Interface funcional Function: ordenando lista com Comparator.comparing**](https://app.algaworks.com/aulas/4803/interface-funcional-function-ordenando-lista-com-comparatorcomparing)
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
 - [****]()
 
 ### BOAS PRÁTICAS
@@ -168,6 +189,36 @@ Exemplo:
 
 
 - [**21.4. Boas práticas: evite float e double se precisão é importante**](https://app.algaworks.com/aulas/4732/boas-praticas-evite-float-e-double-se-precisao-e-importante)
+
+
+- [**25.4. Usando a interface @FunctionalInterface**](https://app.algaworks.com/aulas/4795/usando-a-interface-functionalinterface)
+
+
+- [**25.5. Boas práticas: prefira lambdas a classes anônimas**](https://app.algaworks.com/aulas/4796/boas-praticas-prefira-lambdas-a-classes-anonimas)
+
+
+- [**25.6. Boas práticas: torne as lambdas mais concisas**](https://app.algaworks.com/aulas/4797/boas-praticas-torne-as-lambdas-mais-concisas)
+
+
+- [**25.8. Boas práticas: prefira interfaces funcionais padrão**](https://app.algaworks.com/aulas/4799/boas-praticas-prefira-interfaces-funcionais-padrao)
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
 
 
 - [****]()

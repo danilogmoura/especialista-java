@@ -1,0 +1,9 @@
+package com.github.danilogmoura.estoque;
+
+public class ServicoInativacaoProduto {
+
+    public static void processar(Produto produto) {
+        System.out.println("Inativando " + produto.getNome());
+        produto.inativar();
+    }
+}
