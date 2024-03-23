@@ -87,6 +87,12 @@ Exemplo:
 - [**19.7. Implementando métodos abstratos**](https://app.algaworks.com/aulas/4712/implementando-metodos-abstratos)
 
 
+- [**24.4. Enum como membro estático de uma classe**](https://app.algaworks.com/aulas/4786/enum-como-membro-estatico-de-uma-classe)
+
+
+- [**24.5. Classes aninhadas não-estáticas**](https://app.algaworks.com/aulas/4787/classes-aninhadas-nao-estaticas)
+
+
 - [****]()
 
 ### BOAS PRÁTICAS
