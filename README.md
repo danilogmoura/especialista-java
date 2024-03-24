@@ -105,7 +105,7 @@ Exemplo:
 - [**25.12. Interface funcional Function: ordenando lista com Comparator.comparing**](https://app.algaworks.com/aulas/4803/interface-funcional-function-ordenando-lista-com-comparatorcomparing)
 
 
-- [****]()
+- [**26.3. Testando valor do Optional com isPresent**](https://app.algaworks.com/aulas/4811/testando-valor-do-optional-com-ispresent)
 
 
 - [****]()
@@ -203,7 +203,7 @@ Exemplo:
 - [**25.8. Boas práticas: prefira interfaces funcionais padrão**](https://app.algaworks.com/aulas/4799/boas-praticas-prefira-interfaces-funcionais-padrao)
 
 
-- [****]()
+- [**https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional**](https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional)
 
 
 - [****]()
