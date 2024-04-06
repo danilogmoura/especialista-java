@@ -114,6 +114,9 @@ Exemplo:
 - [**27.20. Usando coletores padrão da classe Collectors**](https://app.algaworks.com/aulas/4840/usando-coletores-padrao-da-classe-collectors)
 
 
+- [**27.23. Gerando mapas agrupados com Collectors.groupingBy**](https://app.algaworks.com/aulas/4843/gerando-mapas-agrupados-com-collectorsgroupingby)
+
+
 - [**27.24. Gerando mapas agrupados com valores agregados**](https://app.algaworks.com/aulas/4844/gerando-mapas-agrupados-com-valores-agregados)
 
 
@@ -221,13 +224,10 @@ Exemplo:
 - [**25.8. Boas práticas: prefira interfaces funcionais padrão**](https://app.algaworks.com/aulas/4799/boas-praticas-prefira-interfaces-funcionais-padrao)
 
 
-- [**https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional**](https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional)
+- [**26.11. Boas práticas ao usar Optional**](https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional)
 
 
 - [**27.28. Boas práticas: prefira funções em streams sem efeito colateral**](https://app.algaworks.com/aulas/4848/boas-praticas-prefira-funcoes-em-streams-sem-efeito-colateral)
-
-
-- [****]()
 
 
 - [****]()
