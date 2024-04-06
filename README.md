@@ -230,7 +230,7 @@ Exemplo:
 - [**27.28. Boas práticas: prefira funções em streams sem efeito colateral**](https://app.algaworks.com/aulas/4848/boas-praticas-prefira-funcoes-em-streams-sem-efeito-colateral)
 
 
-- [****]()
+- [**28.9. Boa prática: tratando IOException com try-with-resources**](https://app.algaworks.com/aulas/4858/boa-pratica-tratando-ioexception-com-try-with-resources)
 
 
 - [****]()
