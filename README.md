@@ -108,6 +108,24 @@ Exemplo:
 - [**26.3. Testando valor do Optional com isPresent**](https://app.algaworks.com/aulas/4811/testando-valor-do-optional-com-ispresent)
 
 
+- [**27.18. Operações de redução especiais: min e max**](https://app.algaworks.com/aulas/4838/operacoes-de-reducao-especiais-min-e-max)
+
+
+- [**27.20. Usando coletores padrão da classe Collectors**](https://app.algaworks.com/aulas/4840/usando-coletores-padrao-da-classe-collectors)
+
+
+- [**27.24. Gerando mapas agrupados com valores agregados**](https://app.algaworks.com/aulas/4844/gerando-mapas-agrupados-com-valores-agregados)
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
 - [****]()
 
 
@@ -206,7 +224,7 @@ Exemplo:
 - [**https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional**](https://app.algaworks.com/aulas/4819/boas-praticas-ao-usar-optional)
 
 
-- [****]()
+- [**27.28. Boas práticas: prefira funções em streams sem efeito colateral**](https://app.algaworks.com/aulas/4848/boas-praticas-prefira-funcoes-em-streams-sem-efeito-colateral)
 
 
 - [****]()
