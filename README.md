@@ -236,6 +236,18 @@ Exemplo:
 - [**29.18. Usando a API de I/O clássica com implementações da NIO**](https://app.algaworks.com/aulas/4885/usando-a-api-de-io-classica-com-implementacoes-da-nio)
 
 
+- [**30.7. Boas práticas de serialização e serialVersionUID**](https://app.algaworks.com/aulas/4895/boas-praticas-de-serializacao-e-serialversionuid)
+
+
+- [****]()
+
+
+- [****]()
+
+
+- [****]()
+
+
 - [****]()
 
 
