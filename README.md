@@ -120,13 +120,13 @@ Exemplo:
 - [**27.24. Gerando mapas agrupados com valores agregados**](https://app.algaworks.com/aulas/4844/gerando-mapas-agrupados-com-valores-agregados)
 
 
-- [****]()
+- [**29.8. Realizando operações com Files.walkFileTree**](https://app.algaworks.com/aulas/4875/realizando-operacoes-com-fileswalkfiletree)
 
 
-- [****]()
+- [**29.11. Pesquisando arquivos em uma pasta e subpastas**](https://app.algaworks.com/aulas/4878/pesquisando-arquivos-em-uma-pasta-e-subpastas)
 
 
-- [****]()
+- [**29.18. Usando a API de I/O clássica com implementações da NIO**](https://app.algaworks.com/aulas/4885/usando-a-api-de-io-classica-com-implementacoes-da-nio)
 
 
 - [****]()
@@ -233,7 +233,7 @@ Exemplo:
 - [**28.9. Boa prática: tratando IOException com try-with-resources**](https://app.algaworks.com/aulas/4858/boa-pratica-tratando-ioexception-com-try-with-resources)
 
 
-- [****]()
+- [**29.18. Usando a API de I/O clássica com implementações da NIO**](https://app.algaworks.com/aulas/4885/usando-a-api-de-io-classica-com-implementacoes-da-nio)
 
 
 - [****]()
