@@ -9,16 +9,13 @@ import java.nio.file.Files;
 
 public class Desserializacao {
     public static void main(String[] args) {
-        Cliente cliente = null;
-
         var path = FilesPath.OBJETOS.resolve("Cliente_Joao.ser");
 
         try (var inputStream = new ObjectInputStream(Files.newInputStream(path))) {
-            cliente = (Cliente) inputStream.readObject();
+            Cliente cliente = (Cliente) inputStream.readObject();
+            System.out.println(cliente);
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-
-        System.out.println(cliente);
     }
 }
