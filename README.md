@@ -129,17 +129,6 @@ Exemplo:
 - [**29.18. Usando a API de I/O clássica com implementações da NIO**](https://app.algaworks.com/aulas/4885/usando-a-api-de-io-classica-com-implementacoes-da-nio)
 
 
-- [****]()
-
-
-- [****]()
-
-
-- [****]()
-
-
-- [****]()
-
 ### BOAS PRÁTICAS
 
 - [**6.7. Boas práticas: valide os argumentos**](https://app.algaworks.com/aulas/4431/boas-praticas-valide-os-argumentos)
@@ -239,20 +228,6 @@ Exemplo:
 - [**30.7. Boas práticas de serialização e serialVersionUID**](https://app.algaworks.com/aulas/4895/boas-praticas-de-serializacao-e-serialversionuid)
 
 
-- [****]()
-
-
-- [****]()
-
-
-- [****]()
-
-
-- [****]()
-
-
-- [****]()
-
 ### DIAGRAMA DE CLASSES
 
 - [**5.6. Conhecendo o diagrama de classes da UML**](https://app.algaworks.com/aulas/4352/conhecendo-o-diagrama-de-classes-da-uml)
@@ -280,7 +255,4 @@ Exemplo:
 
 
 - [**19.3. Diagrama de classes: enumeração**](https://app.algaworks.com/aulas/4708/diagrama-de-classes-enumeracao)
-
-
-- [****]()
 
